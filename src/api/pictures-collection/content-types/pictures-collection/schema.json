@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "pictures_collections",
+  "info": {
+    "singularName": "pictures-collection",
+    "pluralName": "pictures-collections",
+    "displayName": "Pictures-collection",
+    "name": "pictures-collection"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Picture": {
+      "type": "media",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "multiple": true,
+      "required": false
+    }
+  }
+}
