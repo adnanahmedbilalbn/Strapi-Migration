@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/pictures-collection",
+      "handler": "pictures-collection.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/pictures-collection",
+      "handler": "pictures-collection.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/pictures-collection",
+      "handler": "pictures-collection.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
