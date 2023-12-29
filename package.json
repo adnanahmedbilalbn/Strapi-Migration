@@ -1,5 +1,5 @@
 {
-  "name": "strapi-project-2",
+  "name": "strapi-app",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -11,16 +11,16 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "strapi": "3.6.11",
-    "strapi-admin": "3.6.11",
-    "strapi-utils": "3.6.11",
-    "strapi-plugin-content-type-builder": "3.6.11",
-    "strapi-plugin-content-manager": "3.6.11",
-    "strapi-plugin-users-permissions": "3.6.11",
-    "strapi-plugin-email": "3.6.11",
-    "strapi-plugin-upload": "3.6.11",
-    "strapi-plugin-i18n": "3.6.11",
-    "strapi-connector-bookshelf": "3.6.11",
+    "strapi": "3.6.10",
+    "strapi-admin": "3.6.10",
+    "strapi-utils": "3.6.10",
+    "strapi-plugin-content-type-builder": "3.6.10",
+    "strapi-plugin-content-manager": "3.6.10",
+    "strapi-plugin-users-permissions": "3.6.10",
+    "strapi-plugin-email": "3.6.10",
+    "strapi-plugin-upload": "3.6.10",
+    "strapi-plugin-i18n": "3.6.10",
+    "strapi-connector-bookshelf": "3.6.10",
     "knex": "0.21.18",
     "pg": "8.5.1"
   },
@@ -28,7 +28,7 @@
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "040cc8d5-b60b-4dfb-a22b-ff539a079d6e"
+    "uuid": "89e03e5a-e4d2-4efc-a94b-ee98d0678da2"
   },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",

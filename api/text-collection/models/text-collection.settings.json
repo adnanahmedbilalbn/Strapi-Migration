@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "text_collections",
+  "info": {
+    "name": "textCollection",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "age": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "phone": {
+      "type": "biginteger"
+    }
+  }
+}
